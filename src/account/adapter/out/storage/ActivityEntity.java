@@ -13,7 +13,6 @@ public class ActivityEntity {
     @Id
     @GeneratedValue
     private long id;
-
     @Column private LocalDateTime timestamp;
     @Column private Long ownerAccountId;
     @Column private Long sourceAccountId;
