@@ -26,7 +26,6 @@ public class Account {
                 money);
         this.activityWindow.addActivity(withdrawal);
         return true;
-
     }
 
     private boolean canWithdraw(Money money) {
